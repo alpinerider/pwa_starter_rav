@@ -9,7 +9,7 @@ var name = "";
 
 //using ejs templating for pages
 app.set('view engine', 'ejs');
-/*
+
 app.enable('trust proxy');
 
 //comment out to test on localhost
@@ -23,7 +23,7 @@ app.use (function (req, res, next) {
                 res.redirect('https://' + req.headers.host + req.url);
         }
 });
-*/
+
 
 //tone analyzer setup
 const ToneAnalyzerV3 = require('watson-developer-cloud/tone-analyzer/v3');
